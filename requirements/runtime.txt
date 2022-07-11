@@ -8,3 +8,6 @@ six
 terminaltables
 torch>=1.1
 torchvision
+onnxruntime-gpu
+pycuda
+opencv-contrib-python==4.5.5.64

@@ -4,11 +4,11 @@
 {
     "distutils": {
         "depends": [
-            "/home/jmock/SOLOv2.tensorRT/venv/lib/python3.8/site-packages/numpy/core/include/numpy/arrayobject.h",
-            "/home/jmock/SOLOv2.tensorRT/venv/lib/python3.8/site-packages/numpy/core/include/numpy/arrayscalars.h",
-            "/home/jmock/SOLOv2.tensorRT/venv/lib/python3.8/site-packages/numpy/core/include/numpy/ndarrayobject.h",
-            "/home/jmock/SOLOv2.tensorRT/venv/lib/python3.8/site-packages/numpy/core/include/numpy/ndarraytypes.h",
-            "/home/jmock/SOLOv2.tensorRT/venv/lib/python3.8/site-packages/numpy/core/include/numpy/ufuncobject.h"
+            "/home/jmock/OptoAI_MOT/venv/lib/python3.8/site-packages/numpy/core/include/numpy/arrayobject.h",
+            "/home/jmock/OptoAI_MOT/venv/lib/python3.8/site-packages/numpy/core/include/numpy/arrayscalars.h",
+            "/home/jmock/OptoAI_MOT/venv/lib/python3.8/site-packages/numpy/core/include/numpy/ndarrayobject.h",
+            "/home/jmock/OptoAI_MOT/venv/lib/python3.8/site-packages/numpy/core/include/numpy/ndarraytypes.h",
+            "/home/jmock/OptoAI_MOT/venv/lib/python3.8/site-packages/numpy/core/include/numpy/ufuncobject.h"
         ],
         "extra_compile_args": {
             "cxx": [
@@ -17,7 +17,7 @@
             ]
         },
         "include_dirs": [
-            "/home/jmock/SOLOv2.tensorRT/venv/lib/python3.8/site-packages/numpy/core/include"
+            "/home/jmock/OptoAI_MOT/venv/lib/python3.8/site-packages/numpy/core/include"
         ],
         "language": "c++",
         "name": "mmdet.ops.nms.soft_nms_cpu",
